@@ -17,6 +17,7 @@
     "test": "npm run unit && npm run e2e"
   },
   "dependencies": {
+	 "express": "^4.14.1",	
     "axios": "^0.16.2",
     "lodash": "^4.17.4",
     "madgenerator": "^1.0.2",
@@ -41,7 +42,6 @@
     "css-loader": "^0.28.0",
     "cssnano": "^3.10.0",
     "eventsource-polyfill": "^0.9.6",
-    "express": "^4.14.1",
     "extract-text-webpack-plugin": "^2.0.0",
     "file-loader": "^0.11.1",
     "friendly-errors-webpack-plugin": "^1.1.3",
