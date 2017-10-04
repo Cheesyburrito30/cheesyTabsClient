@@ -90,7 +90,7 @@ import {mapState} from 'vuex'
 import SongsService from '@/services/SongsService'
 export default {
     data () {
-        return{
+		  return{
             title: null,
             artist: null,
             youtubeId: null,
@@ -98,9 +98,10 @@ export default {
             album: null,
             lyrics:null,
             tab: null,
-            genre: null,
-            error: null
-        }
+				genre: null,
+            error: null,
+				required: (value) => !!value || 'Required.'
+	 	}			
 	 },
 	 computed: {
 		...mapState([
